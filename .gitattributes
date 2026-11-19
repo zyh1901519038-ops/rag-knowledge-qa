@@ -1,0 +1,17 @@
+﻿# 统一用 LF：本项目要在 Linux 上跑（内核模块、shell 脚本），CRLF 会让脚本报 bad interpreter
+* text=auto eol=lf
+*.sh        text eol=lf
+*.c         text eol=lf
+*.h         text eol=lf
+*.py        text eol=lf
+*.js        text eol=lf
+*.mjs       text eol=lf
+*.ts        text eol=lf
+*.tsx       text eol=lf
+*.json      text eol=lf
+*.md        text eol=lf
+*.css       text eol=lf
+*.html      text eol=lf
+Makefile    text eol=lf
+*.png       binary
+*.jpg       binary
